@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* Main Style */
+
+/* Header Style */
+.header {
+	margin-right: 30px;
+	margin-top: 15px;
+}
+.header a{padding: 0px 5px;}
+.header .a:hover{
+    text-decoration: underline;
+}
+.header a img{vertical-align: middle;}
+
+.header button{background: #5f5fff;color: #fff;border: none;padding: 8px 10px;font-size: 14px;border-radius: 3px;font-weight: bold;}
+.header button:hover{
+    cursor: pointer;
+}
+
+/* Content Style */
+.content {
+	margin: 150px 0 170px 0;
+}
+.content .img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 45px;
+}
+.input {
+    border: 1px solid #83838338;
+    display: inline-block;
+    width: 500px;
+    height: 45px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+.content input{float: left;margin-top: 5px;margin-left: 17px;width: 90%;height: 33px;font-size: 15px;border: none;}
+
+.content .img0{border: none;float: right;padding-top: 17px;padding-right: 10px;}
+.content .img0:hover{
+    cursor: pointer;
+}
+.content button {
+	background: #8080800d;
+	margin-left: 15px;
+	padding: 10px 20px;
+	border-radius: 3px;
+	border: 1px solid #8080804d;
+	margin-bottom: 20px;
+}
+.content button:hover{
+    cursor: pointer;
+}
+.content span{}
+.content span a{color: #5151e0;}
+.content span a:hover{
+    text-decoration: underline;
+}
+
+/* Footer Style */
+.footer{background: #80808017;border: 1px solid #8080802b;}
+.footer p{border-bottom: 1px solid #8080802b;padding: 10px 30px;}
+.footer .menu{padding: 10px 20px;}
+.footer .menu .left{}
+.footer .menu .left nav{}
+.footer .menu .left nav a{padding: 0 10px;}
+.footer .menu .left nav a:hover{
+    text-decoration: underline;
+}
+.footer .menu .right{}
+.footer .menu .right nav{}
+.footer .menu .right nav a{padding: 0 10px; transition: 300ms;}
+.footer .menu .right nav a:hover{
+    text-decoration: underline;
+}
+
+
+
